@@ -43,7 +43,7 @@ function detectNetwork($phoneNo)
 
 
 // Usage
-$phoneNo = "08060530063";// Try 08060530063, 2348060530063, 23408060530063, 07028530063
+$phoneNo = "080312345678";// Try 080312345678, 23480312345678, 234080312345678, 07028123456
 $network = detectNetwork($phoneNo);
 echo $network;//returns false (nothing) if network not found
 ?>
