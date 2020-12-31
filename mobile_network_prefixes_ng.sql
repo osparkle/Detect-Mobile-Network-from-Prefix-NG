@@ -35,10 +35,10 @@ CREATE TABLE `mobile_network_prefixes_ng` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `ng_mobile_network_prefixes`
+-- Dumping data for table `mobile_network_prefixes_ng`
 --
 
-INSERT INTO `ng_mobile_network_prefixes` (`sn`, `prefix`, `network`, `long_network_name`) VALUES
+INSERT INTO `mobile_network_prefixes_ng` (`sn`, `prefix`, `network`, `long_network_name`) VALUES
 (1, '0701', 'Airtel', 'Airtel Nigeria'),
 (2, '07020', 'Smile', 'Smile'),
 (3, '07025', 'MTN', 'MTN Nigeria (formerly Visafone)'),
@@ -88,9 +88,9 @@ INSERT INTO `ng_mobile_network_prefixes` (`sn`, `prefix`, `network`, `long_netwo
 --
 
 --
--- Indexes for table `ng_mobile_network_prefixes`
+-- Indexes for table `mobile_network_prefixes_ng`
 --
-ALTER TABLE `ng_mobile_network_prefixes`
+ALTER TABLE `mobile_network_prefixes_ng`
   ADD PRIMARY KEY (`sn`),
   ADD UNIQUE KEY `prefix` (`prefix`);
 
@@ -99,9 +99,9 @@ ALTER TABLE `ng_mobile_network_prefixes`
 --
 
 --
--- AUTO_INCREMENT for table `ng_mobile_network_prefixes`
+-- AUTO_INCREMENT for table `mobile_network_prefixes_ng`
 --
-ALTER TABLE `ng_mobile_network_prefixes`
+ALTER TABLE `mobile_network_prefixes_ng`
   MODIFY `sn` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 COMMIT;
 
